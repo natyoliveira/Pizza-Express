@@ -78,7 +78,7 @@
 <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header">Manter Funcionários</h1>
+                    <h3 class="page-header">Dados do Cliente</h1>
                 </div>
                 <!-- /.col-lg-12 -->
 
@@ -86,75 +86,57 @@
            
  <!-- /.row -->
             <div class="row">
-                <div class="col-lg-6 ">     
+                <div class="col-lg-6">     
                        <form role="form">
-                           <div class="form-group">
-                              <label>Nome</label>
-                              <input class="form-control">
-                            </div>
-                            <div class="form-group">
-                               <label>Usuário</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-			   <div class="form-group">
-                               <label>Senha</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-                               <button type="submit" class="btn btn-default">Salvar</button>
-                               <button type="reset" class="btn btn-default">Limpar</button>
-			       <button type="reset" class="btn btn-default">Cancelar</button>
-                          </form>
-                      </div>
-                      <!-- /.col-lg-6 (nested) -->
 
-              
+	               <label>Telefone</label>
 
-                <div class="col-lg-6">
-			<div class="form-group">
-                               <label>Pesquisar</label>
-                               <input class="form-control" placeholder="">
-                        </div>
-			<div class="panel panel-default">
-				<div class="panel-heading">Funcionários</div>
-					<div class="panel-body">
-						<div class="table-responsive">
-						<table class="table">
-							<thead>
-							<tr>
-								<th>Nome</th>
-								<th>Usuário</th>
-								<th>Senha</th>
-								<th></th>
-								<th></th>
-							</tr>
-							</thead>
-						<tbody>
-							<tr>
-								<td>Natalia Oliveira</td>
-								<td>20356565</td>
-								<td>968534524</td>
-								<td><a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
-								<td><a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
-							</tr>
-							<tr>
-								<td>Alex Santos</td>
-								<td>85988912</td>
-								<td>8745210</td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
-							</tr>
-							<tr>
-								<td>Nino</td>
-								<td>32651000</td>
-								<td>78851090</td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
-						</tbody>
-					</table>
-				</div>
+			  <div class="form-group input-group">
+                             <input type="text" class="form-control">
+                             <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
+                                </button>
+                             </span>
+                          </div>
 			</div>
-		</div>
-	</div>
+
+			<div class="col-lg-8">
+			    <div class="panel panel-default">
+				<div class="panel-heading">Cliente</div>
+			   		<div class="panel-body">
+					     <div class="form-group">
+                               			<label>Nome</label>
+                               			<input class="form-control" placeholder="">
+                            		     </div>
+		            		    <div class="form-group">
+                                            	<label>Endereço</label>
+                                            	<input class="form-control" placeholder="">
+                                            </div>
+                            		   <div class="form-group">
+                               			<label>Número</label>
+                               			<input class="form-control" placeholder="">
+                            		   </div>
+                            		   <div class="form-group">
+                               			<label>Bairro</label>
+                               			<input class="form-control" placeholder="">
+                            		   </div>
+                            		   <div class="form-group">
+                               			<label>CEP</label>
+                               			<input class="form-control" placeholder="">
+                            		  </div>
+			    		  <div class="form-group">
+                                		<label>Ponto de Referência</label>
+                                		<textarea class="form-control" rows="3"></textarea>
+                                          </div>
+			                </div>
+		                 </div>
+                           </form>
+                          </div>
+			<div class="col-lg-4">
+                               <button type="submit" class="btn btn-default">Alterar Dados</button>
+                               <button type="submit" class="btn btn-default">Realizar Pedido</button>
+			</form>                   
+		</div>     
             <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->

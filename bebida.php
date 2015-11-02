@@ -7,28 +7,21 @@
 <title>Pizzaria</title>
 
 <!-- Google fonts -->
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
-<!-- font awesome -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- bootstrap -->
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
-<!-- animate.css -->
-<link rel="stylesheet" href="assets/animate/animate.css" />
-<link rel="stylesheet" href="assets/animate/set.css" />
+    <!-- Custom CSS -->
+    <link href="assets/sb-admin-2.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
 
-<!-- gallery -->
-<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
-
-<!-- favicon -->
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-
-<link rel="stylesheet" href="assets/style.css">
-
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -42,7 +35,7 @@
           <div class="container">
             <div class="navbar-header">
               <!-- Logo Starts -->
-              <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo"></a>
+              <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
               <!-- #Logo Ends -->
 
 
@@ -85,7 +78,7 @@
 <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header">Manter Pizza</h1>
+                    <h3 class="page-header">Manter Bebidas</h1>
                 </div>
                 <!-- /.col-lg-12 -->
 
@@ -96,33 +89,18 @@
                 <div class="col-lg-6 ">     
                        <form role="form">
                            <div class="form-group">
-                                <label>Categoria</label>
-                                 <select class="form-control">
-                                     <option>1</option>
-                                     <option>2</option>
-                                     <option>3</option>
-                                     <option>4</option>
-                                     <option>5</option>
-                                 </select>
+                              <label>Código Bebida</label>
+                              <input class="form-control">
                             </div>
-                            <div class="form-group">
+			    <div class="form-group">
                                <label>Nome</label>
                                <input class="form-control" placeholder="">
                             </div>
-			    <div class="form-group">
-                                <label>Ingredientes</label>
-                                <textarea class="form-control" rows="3"></textarea>
+                            <div class="form-group">
+                               <label>Descrição</label>
+                               <input class="form-control" placeholder="">
                             </div>
-			    <div class="form-group">
-                                 <label>Tamanho</label>
-                                 <label class="radio-inline">
-                                    <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked>1</label>
-                                         <label class="radio-inline">
-                                         <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2">2</label>
-                                         <label class="radio-inline">
-                                         <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline3" value="option3">3</label>
-                            </div>
-			    <div class="form-group">
+			   <div class="form-group">
                                <label>Valor</label>
                                <input class="form-control" placeholder="">
                             </div>
@@ -136,21 +114,19 @@
               
 
                 <div class="col-lg-6">
-
 			<div class="form-group">
                                <label>Pesquisar</label>
                                <input class="form-control" placeholder="">
-                            </div>
+                        </div>
 			<div class="panel panel-default">
-				<div class="panel-heading">Lista de Pizzas </div>
-			   		<div class="panel-body">
+				<div class="panel-heading">Lista de Bebidas</div>
+					<div class="panel-body">
 						<div class="table-responsive">
 						<table class="table">
 							<thead>
 							<tr>
-								<th>Categoria</th>
+								<th>Código</th>
 								<th>Nome</th>
-								<th>Tamanho</th>
 								<th>Valor</th>
 								<th></th>
 								<th></th>
@@ -161,7 +137,6 @@
 								<td>Natalia Oliveira</td>
 								<td>20356565</td>
 								<td>968534524</td>
-								<td>Rua Dr. Satamini 291</td>
 								<td><a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
 								<td><a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
 							</tr>
@@ -169,7 +144,6 @@
 								<td>Alex Santos</td>
 								<td>85988912</td>
 								<td>8745210</td>
-								<td>Rua Santa Inês, 1234</td>
 								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
 								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
 							</tr>
@@ -177,7 +151,6 @@
 								<td>Nino</td>
 								<td>32651000</td>
 								<td>78851090</td>
-								<td>Rua São Clemente, 32</td>
 								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
 								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
 						</tbody>
@@ -199,29 +172,11 @@
 <!-- works -->
 
 
-
-
-
-<!-- Footer Starts -->
-<!--<div class="footer text-center spacer">
-Copyright 2014 Cyrus Creative Studio. All rights reserved.
-</div>
-<!-- # Footer Ends -->
-<a href="#works" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
-
-
-
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title">Title</h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->    
-</div>
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">Place sticky footer content here.</p>
+  </div>
+</footer>
 
 
 

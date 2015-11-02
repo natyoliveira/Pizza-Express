@@ -65,9 +65,13 @@ print_r($_POST);
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right scroll">
-                 <li ><a href="#works">Relatórios</a></li>
-                 <li ><a href="#about">Opção2</a></li>
-                 <li ><a href="#partners">Opção3</a></li>
+                 <li ><a href="#works">Cliente</a></li>
+                 <li ><a href="#about">Pedido</a></li>
+                 <li ><a href="#partners">Nota</a></li>
+		 <li ><a href="#partners">Funcionários</a></li>
+                 <li ><a href="#partners">Pizza</a></li>
+		 <li ><a href="#partners">Bebidas</a></li>
+		 <li ><a href="#partners">Relatórios</a></li>
                  <li ><a href="#contact">Logout</a></li>
               </ul>
 

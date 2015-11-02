@@ -10,7 +10,7 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 1em 0 2em;	/*change here for spacing*/	
+	margin: 1em 0;	/*change here for spacing*/	
 	width: 33.333333333%;
 	text-align: center;
 	cursor: pointer;
