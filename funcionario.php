@@ -110,10 +110,15 @@
               
 
                 <div class="col-lg-6">
-			<div class="form-group">
-                               <label>Pesquisar</label>
-                               <input class="form-control" placeholder="">
-                        </div>
+			<label>Pesquisar</label>
+
+			  <div class="form-group input-group">
+                             <input type="text" class="form-control">
+                             <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
+                                </button>
+                             </span>
+                          </div>
 			<div class="panel panel-default">
 				<div class="panel-heading">Funcionários</div>
 					<div class="panel-body">

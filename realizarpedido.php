@@ -204,7 +204,9 @@
 		 </div>
               </form> 
                 </div>
-	<div class="col-md-8">
+	</div>
+	<div class="row">
+	<div class="col-md-10">
 	    <div class="panel panel-default">
 		<div class="panel-heading">Lista de Pedidos</div>
 			<div class="panel-body">
@@ -249,11 +251,16 @@
 				</div>
 	</div> 
 
+    <div class="col-md-2">
+	<button type="submit" class="btn btn-default">Incluir Bebida</button>
+    </div>
+
             <!-- /.row -->
            </div>
-
-		
-
+	
+    
+    </div>
+	<div class="row">
 		<div class="col-md-4">     
                        <form role="form" >
                            <div class="form-group">

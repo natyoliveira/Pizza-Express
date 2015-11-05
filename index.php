@@ -65,7 +65,7 @@ print_r($_POST);
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right scroll">
-                 <li ><a href="#works">Cliente</a></li>
+                 <li ><a href="cliente.php">Cliente</a></li>
                  <li ><a href="#about">Pedido</a></li>
                  <li ><a href="#partners">Nota</a></li>
 		 <li ><a href="#partners">Funcionários</a></li>
