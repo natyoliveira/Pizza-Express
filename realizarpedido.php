@@ -86,6 +86,8 @@
            
  <!-- /.row -->
             <div class="row">
+
+ <!-- Right -->
                 <div class="col-lg-6"> 
 		    <div class="form-group">
 			<label class="checkbox-inline">
@@ -93,53 +95,68 @@
                          </label>
 		    </div>
 
+		
 		<div class="panel panel-default">
 		     <div class="panel-body">
-			<div class="form-group">
-                            <label>Categoria</label>
-                                 <select class="form-control">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                 </select>
-                        </div>
-			<div class="form-group">
-                            <label>Nome</label>
-                                 <select class="form-control">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                 </select>
-                        </div>
-			<div class="form-group">
-                              <label>Tamanho</label>
-                                   <label class="radio-inline">
-                                       <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked>1
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2">2
-                                    </label>
-                                    <label class="radio-inline">
-                                       <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline3" value="option3">3
-                                    </label>
-                         </div>
-		         <div class="form-group">
-                               <label>Quantidade</label>
+ 			<div class="col-lg-6">
+				<div class="form-group">
+                            	<label>Categoria</label>
+                                 	<select class="form-control">
+                                    		<option>1</option>
+                                    		<option>2</option>
+                                    		<option>3</option>
+                                    		<option>4</option>
+                                    		<option>5</option>
+                                 	</select>
+                        	</div>
+		      </div>
+		      <div class="col-lg-12">
+				<div class="form-group">
+                            	<label>Nome</label>
+                                 	<select class="form-control">
+                                    		<option>1</option>
+                                    		<option>2</option>
+                                    		<option>3</option>
+                                    		<option>4</option>
+                                    		<option>5</option>
+                                 	</select>
+                        	</div>
+		      </div>
+		       <div class="col-lg-6">
+				<div class="form-group">
+                            	<label>Tamanho</label>
+                                 	<select class="form-control">
+                                    		<option>1</option>
+                                    		<option>2</option>
+                                    		<option>3</option>
+                                    		<option>4</option>
+                                    		<option>5</option>
+                                 	</select>
+                        	</div>
+		      </div>
+		       <div class="col-lg-3">
+				<div class="form-group">
+                              	 <label>Quantidade</label>
                                	  <input class="form-control" placeholder="">
                          </div>
-                         <div class="form-group">
-                              <label>Total</label>
-                               	<input class="form-control" placeholder="">
-                         </div>
-			<button type="submit" class="btn btn-default">Incluir</button> 		    
+		      </div>
+		       <div class="col-lg-3">
+				<div class="form-group">
+                              	 <label>Total</label>
+                               	  <input class="form-control" placeholder="">
+                               </div>
+		      </div>
+
+			<div class="col-lg-6">
+			   <button type="submit" class="btn btn-default">Incluir</button> 
 			</div>
+
+	               </div>
 		 </div>
               </form>  
-                </div> 
+                </div>
+
+ <!-- Left --> 
        <div class="col-lg-6"> 
 		     <div class="form-group">
 			<label class="checkbox-inline">
@@ -149,19 +166,8 @@
 
 		<div class="panel panel-default">
 		     <div class="panel-body">
-			<div class="form-group">
-                               <div class="radio">
-                                   <label>
-                                       <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>2 Partes
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                       <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">3 Partes
-                                     </label>
-                                </div>
-			</div>
-			<div class="form-group">
+			<div class="col-lg-12">
+			  <div class="form-group">
                             <label>Sabor 1</label>
                                  <select class="form-control">
                                     <option>1</option>
@@ -170,8 +176,10 @@
                                     <option>4</option>
                                     <option>5</option>
                                  </select>
-                        </div>
-			<div class="form-group">
+                          </div>
+		       </div>
+		        <div class="col-lg-12">
+			  <div class="form-group">
                             <label>Sabor 2</label>
                                  <select class="form-control">
                                     <option>1</option>
@@ -181,37 +189,41 @@
                                     <option>5</option>
                                  </select>
                         </div>
-			<div class="form-group">
-                            <label>Sabor 3</label>
-                                 <select class="form-control">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                 </select>
-                        </div>
+		       </div>
+			
+			<div class="col-lg-6">
 		         <div class="form-group">
                                <label>Quantidade</label>
                                	  <input class="form-control" placeholder="">
                          </div>
+			</div>
+			<div class="col-lg-6">
                          <div class="form-group">
                               <label>Total</label>
                                	<input class="form-control" placeholder="">
                          </div>
-			<button type="submit" class="btn btn-default">Incluir</button> 		    
+			</div>
+
+			<div class="col-lg-12">
+			   <button type="submit" class="btn btn-default">Incluir</button> 
+			</div>		    
 			</div>
 		 </div>
               </form> 
                 </div>
 	</div>
+
+ <!-- Full row -->
+
 	<div class="row">
-	<div class="col-md-10">
-	    <div class="panel panel-default">
-		<div class="panel-heading">Lista de Pedidos</div>
+
+		<div class="col-lg-10">
+			<div class="panel panel-default">
+			<div class="panel-heading">Lista de Pedidos</div>
 			<div class="panel-body">
 				<div class="table-responsive">
 						<table class="table table-hover">
+
 							<thead>
 							<tr>
 								<th>Item</th>
@@ -250,18 +262,17 @@
 					</table>
 				</div>
 	</div> 
+		</div>
+		
+	</div>
+		<br><br><br>
+		<div class="col-lg-2">
+			<button type="submit" class="btn btn-default">Incluir Bebida</button>
+		</div>
 
-    <div class="col-md-2">
-	<button type="submit" class="btn btn-default">Incluir Bebida</button>
-    </div>
-
-            <!-- /.row -->
-           </div>
-	
-    
     </div>
 	<div class="row">
-		<div class="col-md-4">     
+		<div class="col-md-3">     
                        <form role="form" >
                            <div class="form-group">
                               <label>Forma de Pagamento</label>
@@ -274,42 +285,45 @@
                                  </select>
                             </div>
 	        </div>
-		<div class="col-md-4">
+		<div class="col-md-6">
                             <div class="form-group">
-                               <label>Desconto</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-		</div>
-		<div class="col-md-4">
-			    <div class="form-group">
                                <label>Entregador</label>
                                <input class="form-control" placeholder="">
                             </div>
-			   </form>
-                  </div>
+		</div>
 
-		<div class="col-md-4">     
+		<div class="col-md-3">     
                        <form role="form">
                            <div class="form-group">
                               <label>Valor Total</label>
                               <input class="form-control">
                             </div>
 	        </div>
-		<div class="col-md-4">
+		<div class="col-md-3">
                             <div class="form-group">
                                <label>Receber</label>
                                <input class="form-control" placeholder="">
                             </div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-3">
 			    <div class="form-group">
                                <label>Troco</label>
                                <input class="form-control" placeholder="">
                             </div>
 			   </form>
-                  </div>
+                 </div>
                       
+	</div>
 
+	<div class="row">
+	    <div class="col-md-12">
+		<button type="submit" class="btn btn-default">Salvar Pedido</button> 
+		<button type="submit" class="btn btn-default">Emitir Nota</button> 
+		<button type="submit" class="btn btn-default">Cancelar</button> 
+	    </div>
+	
+	</div>
+	<br><br>
  
             <!-- /#page-wrapper -->
 

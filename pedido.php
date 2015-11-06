@@ -83,61 +83,108 @@
                 <!-- /.col-lg-12 -->
 
             </div>
-           
- <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-6">     
-                       <form role="form">
-
-	               <label>Telefone</label>
-
-			  <div class="form-group input-group">
-                             <input type="text" class="form-control">
-                             <span class="input-group-btn">
-                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
-                                </button>
-                             </span>
-                          </div>
+ 
+ <!-- Right -->
+          <div class="row">
+                   <div class="col-lg-6">
+			<div class="col-lg-12">
+				<form role="form">
+				<label>Pesquisar</label>
+			  		<div class="form-group input-group">
+                             			<input type="text" class="form-control">
+                             			<span class="input-group-btn">
+                                		<button class="btn btn-default" type="button"><i class="fa fa-search"></i>
+                                		</button>
+                             			</span>
+                          		</div>
 			</div>
 
-			<div class="col-lg-8">
-			    <div class="panel panel-default">
+
+		
+		<div class="col-lg-12">
+			<button type="submit" class="btn btn-default">Cadastrar</button>
+                	<button type="reset" class="btn btn-default">Alterar</button>
+			<button type="reset" class="btn btn-default">Realizar Pedido</button>
+
+<br>
+<br>		</div>
+	      <!-- /form -->
+              </form>
+	</div>
+
+<!-- Left -->
+
+ 	<div class="col-lg-6">
+		<div class="panel panel-default">
 				<div class="panel-heading">Cliente</div>
 			   		<div class="panel-body">
-					     <div class="form-group">
-                               			<label>Nome</label>
-                               			<input class="form-control" placeholder="">
-                            		     </div>
-		            		    <div class="form-group">
-                                            	<label>Endereço</label>
-                                            	<input class="form-control" placeholder="">
-                                            </div>
-                            		   <div class="form-group">
-                               			<label>Número</label>
-                               			<input class="form-control" placeholder="">
-                            		   </div>
-                            		   <div class="form-group">
-                               			<label>Bairro</label>
-                               			<input class="form-control" placeholder="">
-                            		   </div>
-                            		   <div class="form-group">
-                               			<label>CEP</label>
-                               			<input class="form-control" placeholder="">
-                            		  </div>
-			    		  <div class="form-group">
-                                		<label>Ponto de Referência</label>
-                                		<textarea class="form-control" rows="3"></textarea>
-                                          </div>
+					     <div class="col-lg-6">
+				 <!-- form -->
+				 <form role="form">
+					<div class="form-group">
+                              			<label>Fixo</label>
+                              			<input class="form-control">
+                            		</div> 
+			</div>
+			<div class="col-lg-6">
+					<div class="form-group">
+                              			<label>Celular</label>
+                              			<input class="form-control">
+                            		</div>
+			</div>
+
+		<div class="col-lg-12">
+			<div class="form-group">
+                             <label>Nome</label>
+                             <input class="form-control" placeholder="">
+                          </div>
+		</div>
+
+		<div class="col-lg-10">
+			<div class="form-group">
+                             <label>Endereço</label>
+                             <input class="form-control" placeholder="">
+                          </div>
+		</div>
+	
+		<div class="col-lg-2">
+			<div class="form-group">
+                             <label>Número</label>
+                             <input class="form-control" placeholder="">
+                          </div>
+		</div>
+
+		<div class="col-lg-6">
+			<div class="form-group">
+                             <label>Bairro</label>
+                             <input class="form-control" placeholder="">
+                          </div>
+		</div>
+
+		<div class="col-lg-6">
+			<div class="form-group">
+                             <label>CEP</label>
+                             <input class="form-control" placeholder="">
+                          </div>
+		</div>
+
+		<div class="col-lg-12">
+			<div class="form-group">
+                               <label>Ponto de Referência</label>
+                               <textarea class="form-control" rows="3"></textarea>
+                          </div>
+		</div>
+		
+		<div class="col-lg-12">
+			<button type="submit" class="btn btn-default">Salvar</button>
+<br>
+<br>		</div>
+	      <!-- /form -->
 			                </div>
 		                 </div>
-                           </form>
-                          </div>
-			<div class="col-lg-4">
-                               <button type="submit" class="btn btn-default">Alterar Dados</button>
-                               <button type="submit" class="btn btn-default">Realizar Pedido</button>
-			</form>                   
-		</div>     
-            <!-- /.row -->
+	</div>
+
+      
         </div>
         <!-- /#page-wrapper -->
 

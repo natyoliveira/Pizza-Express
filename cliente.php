@@ -84,127 +84,81 @@
 
             </div>
            
- <!-- /.row -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Right -->
           <div class="row">
                    <div class="col-lg-6">
 			<div class="col-lg-6">
-A
+				 <!-- form -->
+				 <form role="form">
+					<div class="form-group">
+                              			<label>Fixo</label>
+                              			<input class="form-control">
+                            		</div> 
 			</div>
 			<div class="col-lg-6">
-B
+					<div class="form-group">
+                              			<label>Celular</label>
+                              			<input class="form-control">
+                            		</div>
 			</div>
 
-
-lkjhkjhkjhkjhj
-
-</div>
-
-<!---------------------------------------->
-
-
- <div class="col-lg-6">
-
-
-hgjhgjhgjhgjhgjhgjh
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-          <div class="row">
-                   <div class="col-lg-3">
-			<form role="form">
-                           <div class="form-group">
-                              <label>Fixo</label>
-                              <input class="form-control">
-                            </div> 
-		  </div>
-		<div class="col-lg-3">
-                           <div class="form-group">
-                              <label>Celular</label>
-                              <input class="form-control">
-                            </div> 
-  		</div>
-		</div>
-          <div class="row">
-		<div class="col-lg-6">
-                          <div class="form-group">
+		<div class="col-lg-12">
+			<div class="form-group">
                              <label>Nome</label>
                              <input class="form-control" placeholder="">
                           </div>
-	
-		         <div class="form-group">
-                            <label>Endereço</label>
-                            <input class="form-control" placeholder="">
-                         </div>
-
 		</div>
-		         <div class="form-group">
+
+		<div class="col-lg-10">
+			<div class="form-group">
+                             <label>Endereço</label>
+                             <input class="form-control" placeholder="">
+                          </div>
+		</div>
+	
+		<div class="col-lg-2">
+			<div class="form-group">
                              <label>Número</label>
                              <input class="form-control" placeholder="">
                           </div>
-  
-		         <div class="form-group">
+		</div>
+
+		<div class="col-lg-6">
+			<div class="form-group">
                              <label>Bairro</label>
                              <input class="form-control" placeholder="">
                           </div>
- 
-                          <div class="form-group">
-                              <label>CEP</label>
-                              <input class="form-control" placeholder="">
-                          </div>
+		</div>
 
-			  <div class="form-group">
+		<div class="col-lg-6">
+			<div class="form-group">
+                             <label>CEP</label>
+                             <input class="form-control" placeholder="">
+                          </div>
+		</div>
+
+		<div class="col-lg-12">
+			<div class="form-group">
                                <label>Ponto de Referência</label>
                                <textarea class="form-control" rows="3"></textarea>
                           </div>
+		</div>
+		
+		<div class="col-lg-12">
+			<button type="submit" class="btn btn-default">Salvar</button>
+                	<button type="reset" class="btn btn-default">Limpar</button>
+			<button type="reset" class="btn btn-default">Cancelar</button>
 
-                               <button type="submit" class="btn btn-default">Salvar</button>
-                               <button type="reset" class="btn btn-default">Limpar</button>
-			       <button type="reset" class="btn btn-default">Cancelar</button>
-                          </form>
+<br>
+<br>		</div>
+	      <!-- /form -->
+              </form>
 	</div>
-                      <!-- /.col-lg-6 (nested) -->
 
-              
+<!-- Left -->
 
-                <div class="col-lg-6">
-
-			<label>Pesquisar</label>
+ 	<div class="col-lg-6">
+		<label>Pesquisar</label>
 
 			  <div class="form-group input-group">
                              <input type="text" class="form-control">
@@ -259,7 +213,10 @@ hgjhgjhgjhgjhgjhgjh
 			</div>
 		</div>
 	</div>
-            <!-- /.row -->
+
+	</div>
+</div>
+      
         </div>
         <!-- /#page-wrapper -->
 

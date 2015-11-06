@@ -83,38 +83,55 @@
                 <!-- /.col-lg-12 -->
 
             </div>
-           
- <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-6 ">     
-                       <form role="form">
-                           <div class="form-group">
-                              <label>Código Bebida</label>
-                              <input class="form-control">
-                            </div>
-			    <div class="form-group">
-                               <label>Nome</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-                            <div class="form-group">
+          
+<!-- Right -->
+          <div class="row">
+                   <div class="col-lg-6">
+			<div class="col-lg-6">
+				 <!-- form -->
+				 <form role="form">
+					<div class="form-group">
+                              			<label>Código</label>
+                              			<input class="form-control">
+                            		</div> 
+			</div>
+			<div class="col-lg-6">
+					<div class="form-group">
+                              			<label>Nome</label>
+                              			<input class="form-control">
+                            		</div>
+			</div>
+
+
+		<div class="col-lg-12">
+			<div class="form-group">
                                <label>Descrição</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-			   <div class="form-group">
-                               <label>Valor</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-                               <button type="submit" class="btn btn-default">Salvar</button>
-                               <button type="reset" class="btn btn-default">Limpar</button>
-			       <button type="reset" class="btn btn-default">Cancelar</button>
-                          </form>
-                      </div>
-                      <!-- /.col-lg-6 (nested) -->
+                               <textarea class="form-control" rows="3"></textarea>
+                          </div>
+		</div>
+		
+		<div class="col-lg-6">
+			<div class="form-group">
+                              	<label>Valor</label>
+                              	<input class="form-control">
+                        </div>
+		</div>
+		
+		<div class="col-lg-12">
+			<button type="submit" class="btn btn-default">Salvar</button>
+                	<button type="reset" class="btn btn-default">Limpar</button>
+			<button type="reset" class="btn btn-default">Cancelar</button>
 
-              
+<br>
+<br>		</div>
+	      <!-- /form -->
+              </form>
+	</div>
 
-                <div class="col-lg-6">
-			<label>Pesquisar</label>
+<!-- Left -->
+
+ 	<div class="col-lg-6">
+		<label>Pesquisar</label>
 
 			  <div class="form-group input-group">
                              <input type="text" class="form-control">
@@ -176,6 +193,7 @@
 </div>
 <!-- works -->
 
+			
 
 <footer class="footer">
   <div class="container">

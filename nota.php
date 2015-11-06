@@ -78,109 +78,48 @@
 <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header">Manter Clientes</h1>
+                    <h3 class="page-header">Dados da Nota</h1>
                 </div>
                 <!-- /.col-lg-12 -->
 
             </div>
-           
- <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-6 ">     
-                       <form role="form">
-                           <div class="form-group">
-                              <label>Telefone Fixo</label>
-                              <input class="form-control">
-                            </div>
-                            <div class="form-group">
-                               <label>Celular</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-			   <div class="form-group">
-                               <label>Nome</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-		            <div class="form-group">
-                               <label>Endereço</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-                            <div class="form-group">
-                               <label>Número</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-                            <div class="form-group">
-                               <label>Bairro</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-                            <div class="form-group">
-                               <label>CEP</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-			    <div class="form-group">
-                                <label>Ponto de Referência</label>
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
-                               <button type="submit" class="btn btn-default">Salvar</button>
-                               <button type="reset" class="btn btn-default">Limpar</button>
-			       <button type="reset" class="btn btn-default">Cancelar</button>
-                          </form>
-                      </div>
-                      <!-- /.col-lg-6 (nested) -->
-
-              
-
-                <div class="col-lg-6">
-
-			<div class="form-group">
-                               <label>Pesquisar</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-			<div class="panel panel-default">
-				<div class="panel-heading">Lista de Clientes </div>
-			   		<div class="panel-body">
-						<div class="table-responsive">
-						<table class="table">
-							<thead>
-							<tr>
-								<th>Nome</th>
-								<th>Tel Fixo</th>
-								<th>Celular</th>
-								<th>Endereço</th>
-								<th></th>
-								<th></th>
-							</tr>
-							</thead>
-						<tbody>
-							<tr>
-								<td>Natalia Oliveira</td>
-								<td>20356565</td>
-								<td>968534524</td>
-								<td>Rua Dr. Satamini 291</td>
-								<td><a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
-								<td><a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
-							</tr>
-							<tr>
-								<td>Alex Santos</td>
-								<td>85988912</td>
-								<td>8745210</td>
-								<td>Rua Santa Inês, 1234</td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
-							</tr>
-							<tr>
-								<td>Nino</td>
-								<td>32651000</td>
-								<td>78851090</td>
-								<td>Rua São Clemente, 32</td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
-						</tbody>
-					</table>
-				</div>
+ 
+ <!-- Right -->
+          <div class="row">
+                   <div class="col-lg-6">
+			<div class="col-lg-12">
+				<form role="form">
+				<label>Pedido</label>
+			  		<div class="form-group input-group">
+                             			<input type="text" class="form-control">
+                             			<span class="input-group-btn">
+                                		<button class="btn btn-default" type="button"><i class="fa fa-search"></i>
+                                		</button>
+                             			</span>
+                          		</div>
 			</div>
-		</div>
+
+
+		
+		<div class="col-lg-12">
+			<button type="submit" class="btn btn-default">Alterar</button>
+                	<button type="reset" class="btn btn-default">Reimprimir Nota</button>
+			<button type="reset" class="btn btn-default">Cancelar</button>
+
+<br>
+<br>		</div>
+	      <!-- /form -->
+              </form>
 	</div>
-            <!-- /.row -->
+
+<!-- Left -->
+
+ 	<div class="col-lg-6">
+		
+			           
+	</div>
+
+      
         </div>
         <!-- /#page-wrapper -->
 

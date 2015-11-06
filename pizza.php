@@ -90,55 +90,73 @@
                 <!-- /.col-lg-12 -->
 
             </div>
-           
- <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-6 ">     
-                       <form role="form">
-                           <div class="form-group">
-                                <label>Categoria</label>
-                                 <select class="form-control">
-                                     <option>1</option>
-                                     <option>2</option>
-                                     <option>3</option>
-                                     <option>4</option>
-                                     <option>5</option>
-                                 </select>
-                            </div>
-                            <div class="form-group">
-                               <label>Nome</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-			    <div class="form-group">
-                                <label>Ingredientes</label>
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
-			    <div class="form-group">
+     
+<!-- Right -->
+          <div class="row">
+                   <div class="col-lg-6">
+			<div class="col-lg-6">
+				 <!-- form -->
+				 <form role="form">
+					<div class="form-group">
+                                		<label>Categoria</label>
+                                 		<select class="form-control">
+                                     		<option>1</option>
+                                     		<option>2</option>
+                                     		<option>3</option>
+                                     		<option>4</option>
+                                     		<option>5</option>
+                                 		</select>
+                            		</div>
+			</div>
+			
+
+		<div class="col-lg-12">
+			<div class="form-group">
+                             <label>Nome</label>
+                             <input class="form-control" placeholder="">
+                          </div>
+		</div>
+
+		<div class="col-lg-12">
+			<div class="form-group">
+                               <label>Ingredientes</label>
+                               <textarea class="form-control" rows="3"></textarea>
+                          </div>
+		</div>
+
+		<div class="col-lg-9">
                                  <label>Tamanho</label>
                                  <label class="radio-inline">
-                                    <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked>1</label>
-                                         <label class="radio-inline">
-                                         <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2">2</label>
-                                         <label class="radio-inline">
-                                         <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline3" value="option3">3</label>
-                            </div>
-			    <div class="form-group">
-                               <label>Valor</label>
-                               <input class="form-control" placeholder="">
-                            </div>
-                               <button type="submit" class="btn btn-default">Salvar</button>
-                               <button type="reset" class="btn btn-default">Limpar</button>
-			       <button type="reset" class="btn btn-default">Cancelar</button>
-                          </form>
-                      </div>
-                      <!-- /.col-lg-6 (nested) -->
+                                 <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked>1</label>
+                                 <label class="radio-inline">
+                                 <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2">2</label>
+                                 <label class="radio-inline">
+                                 <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline3" value="option3">3</label>
+		</div>
 
-              
+		<div class="col-lg-3">
+			<div class="form-group">
+                               	<label>Valor</label>
+                               	<input class="form-control" placeholder="">
+                        </div>
+		</div>
 
-                <div class="col-lg-6">
+		
+		<div class="col-lg-12">
+			<button type="submit" class="btn btn-default">Salvar</button>
+                	<button type="reset" class="btn btn-default">Limpar</button>
+			<button type="reset" class="btn btn-default">Cancelar</button>
 
-			<label>Pesquisar</label>
+<br>
+<br>		</div>
+	      <!-- /form -->
+              </form>
+	</div>
 
+<!-- Left -->
+
+ 	<div class="col-lg-6">
+		<label>Pesquisar</label>
 			  <div class="form-group input-group">
                              <input type="text" class="form-control">
                              <span class="input-group-btn">
@@ -184,6 +202,7 @@
 								<td>78851090</td>
 								<td>Rua São Clemente, 32</td>
 								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
+
 								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
 						</tbody>
 					</table>
@@ -203,30 +222,11 @@
 </div>
 <!-- works -->
 
-
-
-
-
-<!-- Footer Starts -->
-<!--<div class="footer text-center spacer">
-Copyright 2014 Cyrus Creative Studio. All rights reserved.
-</div>
-<!-- # Footer Ends -->
-<a href="#works" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
-
-
-
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title">Title</h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->    
-</div>
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">Place sticky footer content here.</p>
+  </div>
+</footer>
 
 
 
