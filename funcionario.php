@@ -1,3 +1,26 @@
+<?php
+include('include/conexao.php');
+
+if($_GET['cod'] == 'ins'){
+	
+$nome = $_POST['nome'];
+$usuario = $_POST['usuario'];
+$senha = md5($_POST['senha']);
+
+$SQL = "INSERT INTO funcionario (`id_usuario`, `nome`, `usuario`, `senha`) VALUES (NULL,'".$nome."','".$usuario."','".$senha."')";
+$RS  = mysql_query($SQL);
+}
+
+
+
+
+$SQL = "SELECT * FROM funcionario";
+$RS  = mysql_query($SQL);
+$arr = mysql_fetch_array($RS);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,25 +112,25 @@
                    <div class="col-lg-6">
 			<div class="col-lg-12">
 				 <!-- form -->
-				 <form role="form">
+				 <form role="form" action="funcionario.php?cod=ins" method="POST">
 			
 			<div class="form-group">
                              <label>Nome</label>
-                             <input class="form-control" placeholder="">
+                             <input class="form-control" placeholder="" name="nome">
                           </div>
 		</div>
 
 		<div class="col-lg-6">
 			<div class="form-group">
                              <label>Usuário</label>
-                             <input class="form-control" placeholder="">
+                             <input class="form-control" placeholder="" name="usuario">
                           </div>
 		</div>
 	
 		<div class="col-lg-6">
 			<div class="form-group">
                              <label>Senha</label>
-                             <input class="form-control" placeholder="">
+                             <input class="form-control" placeholder="" name="senha">
                           </div>
 		</div>
 		
@@ -128,10 +151,12 @@
 		<label>Pesquisar</label>
 
 			  <div class="form-group input-group">
-                             <input type="text" class="form-control">
+			    <form action="funcionario.php?cad=pesq" method="POST">
+                             <input type="text" class="form-control" name=>
                              <span class="input-group-btn">
-                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
-                                </button>
+                                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i>
+				</button>
+			     </form>
                              </span>
                           </div>
 
@@ -150,26 +175,24 @@
 							</tr>
 							</thead>
 						<tbody>
+							
+						<?php
+
+
+
+ foreach($arr as $key => $val  ){ 
+print"<pre>";
+print_r($val);
+?>
 							<tr>
-								<td>Natalia Oliveira</td>
-								<td>noliveira</td>
+								<td><?php echo $val['nome']; ?></td>
+								<td><?php echo $val['usuario']; ?></td>
 								<td>968534524</td>
 								<td><a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
 								<td><a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
 							</tr>
-							<tr>
-								<td>Alex Santos</td>
-								<td>alex</td>
-								<td>8745210</td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
-							</tr>
-							<tr>
-								<td>Nino</td>
-								<td>nino</td>
-								<td>78851090</td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a></td>
-								<td> <a href="www.google.com"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a></td>
+							<?php } ?>
+							
 						</tbody>
 					</table>
 				</div>

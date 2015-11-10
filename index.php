@@ -1,6 +1,12 @@
 <?php
 
-print_r($_POST);
+SESSION_START();
+
+if (empty($_SESSION['id'])){
+
+header('location:login.php?ER=2');
+
+}
 
 ?>
 

@@ -1,3 +1,17 @@
+<?php
+include('include/conexao.php');
+
+
+$fixo = $_POST['fixo'];
+PRINT_R ($_POST);
+echo "Aqui";
+
+$SQL = "INSERT INTO * FROM funcionario where usuario='".$usuario."' and senha='".$senha."'";
+$RS  = mysql_query($SQL);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,16 +103,16 @@
                    <div class="col-lg-6">
 			<div class="col-lg-6">
 				 <!-- form -->
-				 <form role="form">
+				 <form role="form" action="cliente.php" method="POST">
 					<div class="form-group">
                               			<label>Fixo</label>
-                              			<input class="form-control">
+                              			<input class="form-control" name="fixo">
                             		</div> 
 			</div>
 			<div class="col-lg-6">
 					<div class="form-group">
                               			<label>Celular</label>
-                              			<input class="form-control">
+                              			<input class="form-control" value="<?php echo $fixo; ?>">
                             		</div>
 			</div>
 
